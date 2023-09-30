@@ -1,3 +1,5 @@
 .bg{
-    background : url("/image/BG.png") no-repeat;
+    background : url("/image/BG.png");
+    background-width : 100%;
+    background-height : 100%;
 }
