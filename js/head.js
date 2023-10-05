@@ -1,6 +1,7 @@
 function include(name){
 	code = '<meta charset="UTF-8">\
 		<title>'+name+" - 西瓜之家"+'</title>\
+		<link rel="icon" href="/pic/icon.png">\
 		<link rel="stylesheet" type="text/css" href="/css/home.css">\
 		<link rel="stylesheet" type="text/css" href="/css/text.css">\
 		<link rel="stylesheet" type="text/css" href="/css/card.css">\
