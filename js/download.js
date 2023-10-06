@@ -1,7 +1,7 @@
-function download_link(link ){
-	code = '
-		<a href="/file/扫雷[dist-v1.0.0].zip" download="扫雷[dist-v1.0.0].zip" style="text-decoration: underline">
-						扫雷[dist-v1.0.0].zip
-					</a>
-		';
+function download_link(link, name){
+	code = '<a href="https://github.moeyy.xyz/\
+		https://github.com/FuhaoWaterMelon/FuhaoWaterMelon.github.io/blob/main/\
+		'+link+'" download="'+name+'" style="text-decoration: underline">\
+		'+name+'</a>';
+	document.write(code);
 }
