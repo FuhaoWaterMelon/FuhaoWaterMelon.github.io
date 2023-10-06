@@ -5,7 +5,8 @@ function include(name){
 		<link rel="stylesheet" type="text/css" href="/css/home.css">\
 		<link rel="stylesheet" type="text/css" href="/css/text.css">\
 		<link rel="stylesheet" type="text/css" href="/css/card.css">\
-		<script src="/js/text.js"></script>';
+		<script src="/js/text.js"></script>\
+		<script src="/js/download.js"></script>';
 	document.write(code);
 }
 function build(){
