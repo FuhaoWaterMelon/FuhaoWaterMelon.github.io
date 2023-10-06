@@ -16,6 +16,7 @@ function build(){
 	}
 	code = '<div class="header" id="header">'+space+
 		_link("/index.html","西瓜之家",'<img src="/image/homepage.png"')+space+
+		_link("/index.html","首页")+space+
 		_link("/downloadpage.html","下载")+
 		'</div>';
 	document.write(code);
