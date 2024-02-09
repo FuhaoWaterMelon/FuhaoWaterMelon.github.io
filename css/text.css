@@ -1,0 +1,31 @@
+.h1{
+    color: purple;
+    font-size: 50px;
+    font-family: "华文琥珀";
+    font-weight: normal;
+}
+.h2{
+    color: darkblue;
+    font-size: 50px;
+    font-family: "华文新魏";
+    font-weight: bold;
+}
+.h3{
+    color: black;
+    font-size: 40px;
+    font-family: "kaiti";
+    font-weight: bold;
+}
+.p1{
+    color: black;
+    text-indent: 60px;
+    text-align: left;
+    font-family: "kaiti";
+    font-size: 30px;
+    font-weight: normal;
+}
+.p2{
+    font-family: "华文仿宋";
+    font-size: 30px;
+    font-weight: bold;
+}
