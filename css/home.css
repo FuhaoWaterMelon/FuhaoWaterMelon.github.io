@@ -1,5 +1,5 @@
 a{
-    text-decoration: none;
+	text-decoration: none;
 }
 hr{
 	height: 2px;
@@ -8,13 +8,20 @@ hr{
 	background-color: darkblue;
 }
 .fm{
-    text-align: center;
+	text-align: center;
 }
 .header{
-    margin: auto;
-    font-family: "等线";
-    font-size: 40px;
-    color: rgb(0,0,0);
-    background-color: rgb(255,255,255);
-    width: 100%;
+	margin: auto;
+	font-family: "等线";
+	font-size: 40px;
+	color: rgb(0,0,0);
+	background-color: rgb(255,255,255);
+	width: 100%;
+}
+.cannot-select{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
 }
