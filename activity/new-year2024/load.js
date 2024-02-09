@@ -19,7 +19,7 @@ function buildFirework(element) {
 function buildFirecracker(maxX, maxY){
 	var x = randomNum(34,maxX);
 	var y = randomNum(34,maxY);
-	var code = '<img style="position:absolute;left:'+String(x)+'px;top:'+String(y)+'px;" \
+	var code = '<img class="cannot-select" style="position:absolute;left:'+String(x)+'px;top:'+String(y)+'px;" \
 		src="firecracker.png" onclick="buildFirework(this)">';
 	document.write(code);
 }
