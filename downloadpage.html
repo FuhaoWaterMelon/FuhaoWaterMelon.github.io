@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="/js/head.js"></script>
+		<script>include("下载")</script>
+	</head>
+	<body class="bg">
+		<script>build()</script>
+		<div id="saying" class="saying">
+			<br>
+			<div class="chunk">
+				<p class="p2">文件下载源:</p>
+				<a class="-source" href="?acce=0" title='示例:"https://fuhaowatermelon.github.io/file/example.zip"'>当前网站源</a>
+				<span class="red--eye-catching" id="acce0">[Now]</span>
+				<br><br><a class="-source" href="?acce=1" title='示例:"https://github.com/FuhaoWaterMelon/
+FuhaoWaterMelon.github.io/blob/main/file/example.zip"'>GitHub文件源</a>
+				<span class="red--eye-catching" id="acce1">[Now]</span>
+				<br><br><a class="-source" href="?acce=2" title='示例:"https://github.moeyy.xyz/github.com/FuhaoWaterMelon/
+FuhaoWaterMelon.github.io/blob/main/file/example.zip"'>GitHub Moeyy加速源</a>
+				<span class="red--eye-catching" id="acce2">[Now]</span>
+				<script>source(location.search, document)</script>
+			</div>
+		</div><div class="fm">
+			<p class="h1">下载</p>
+			<hr>
+			<p class="h2" id="game">游戏</p>
+			<dl>
+				<dt id="game-minesweeper">扫雷</dt>
+				<dd>
+					<script>text_symbol('-')</script>
+					<script>download_link("/file/扫雷[dist-v1.0.0].zip","扫雷[dist-v1.0.0].zip", is_acce(location.search))</script>
+				</dd>
+			</dl>
+			<br><br><br><br>
+		</div>
+	</body>
+</html>

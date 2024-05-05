@@ -1,0 +1,58 @@
+a{
+	text-decoration: none;
+}
+hr{
+	height: 2px;
+	border-width: 0;
+	color: darkblue;
+	background-color: darkblue;
+}
+/* Body */
+.fm{
+	text-align: center;
+}
+.header{
+	margin: auto;
+	font-family: "dengxian";
+	font-size: 40px;
+	background-color: rgb(255,255,255);
+	border-radius: 10px;
+}
+.cannot-select{
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+}
+/* Saying */
+.saying{
+	width: 300px;
+	float: right;
+}
+.chunk{
+	background-color: rgba(255,250,232,0.8);
+	width: 90%;
+	border: 2px solid gray;
+	border-radius: 10px;
+}
+/* Footer */
+.footer{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	display: flex;
+	opacity: 0.5;
+}
+.-img-browser{
+	width: 24px;
+	height: 24px;
+}
+/* Others */
+.-source{
+	font-family: kaiti;
+	font-weight: bold;
+	font-size: 20px;
+}
