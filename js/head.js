@@ -1,5 +1,8 @@
 function include(name){
 	 var code = '<title>'+name+" - 西瓜之家"+'</title>\
+	 	<meta name="keywords" content="FuhaoWaterMelon, 西瓜之家, '+name+'">\
+	 	<meta name="description" content="FuhaoWaterMelon\'s GitHub Page">\
+	 	<meta name="author" content="FuhaoWaterMelon">\
 		<link rel="icon" href="/image/icon.png">\
 		<link rel="stylesheet" type="text/css" href="/css/home.css">\
 		<link rel="stylesheet" type="text/css" href="/css/text.css">\
